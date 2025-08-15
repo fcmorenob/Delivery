@@ -42,7 +42,7 @@ public partial class Pedido
 
     public virtual ICollection<PedidoDetalle> PedidoDetalles { get; set; } = new List<PedidoDetalle>();
 
-    public virtual Tiendum Tienda { get; set; } = null!;
+    public virtual Tienda Tienda { get; set; } = null!;
 }
 
 public static class PedidoExtension
