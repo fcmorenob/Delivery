@@ -60,7 +60,9 @@ namespace Bussines.Repository
                 query = orderbyExpress(query);
             }
             if ((pageNumber >= 1) && (pageSize >= 10))
-            { query = query.Skip((pageNumber - 1) * pageSize).Take(pageSize); }
+            { //query = query.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+            }
+
             var retorno = await query.ToListAsync();
 
             return (retorno, pageNumber, pageSize, totalCount);

@@ -26,8 +26,6 @@ namespace Bussines.Repository
             TiendaRepository = new TiendaRepository(context);
             VehiculoRepository = new VehiculoRepository(context);
             VwResumenEntregaDiasRepository = new VwResumenEntregaDiasRepository(context);
-
-
         }
 
         public IClienteRepository ClienteRepository { get; set; }

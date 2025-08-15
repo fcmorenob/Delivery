@@ -49,7 +49,7 @@ public partial class DeliveryContext : DbContext
         modelBuilder.ClienteMapping();
         modelBuilder.ConductorMapping();
         modelBuilder.EstadoParadaMapping();
-        modelBuilder.EstadoParadaMapping();
+        modelBuilder.EstadoPedidoMapping();
         modelBuilder.EstadoRutaMapping();
         modelBuilder.HistorialEstadoPedidoMapping();
         modelBuilder.ParadaEntregaMapping();
